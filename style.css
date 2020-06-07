@@ -42,7 +42,7 @@ body{background: #eee;}
 }
 
 
-
+/* Cleaning */
 .clearfix:after 
 {
     visibility: hidden;
