@@ -26,6 +26,7 @@
             <li class="header__menu__item"><a href="contacts.html">Contacts</a></li>
         </ul>
     </header>
+    
 <!-- Home Page-->
     <section class="cover">
         <div class="cover__filter"></div>
@@ -46,7 +47,7 @@
         <img class="card__image" src="https://source.unsplash.com/400x260/?hack,matrix,code" alt="">
      <div class="card__copy">
         <h3>Hack</h3>
-        <p>Hacking was one of the most interesting part in my life. I've started at 12 years when i decided to build-up my first private server. Since that day, i have started to explore this great world of Client/Server archituture, and i tried to figure-out how can i access on it. <br><br><br> It was pretty interesting as personal research and i've learned too much from that experience</p>
+        <p>Hacking was one of the most interesting parts in my life. I've started around 12 years when i decided to build-up my first private server. Since that day, i have started to explore this great world of Client/Server architecture, and i tried to figure out how can i access it. <br><br><br> It was pretty interesting as a personal research and i've learned too much from that experience</p>
      </div>
     </div>
 
@@ -64,7 +65,7 @@
         <img class="card__image" src="https://source.unsplash.com/400x260/?videogames,games" alt="">
      <div class="card__copy">
         <h3>Games</h3>
-        <p>Everybody think that i am a real nerd. But this is not the truth. I played some games in my life and i decided to approach its for studing it. I played for a long time at League Of Legends, but when i went at Urbino for go ahead with my studies, i decide to left LOL and play something more serius. I played: DarkSouls, Nier: Automata, The Withcer, Resident Evil and many other titles... <br> The first MMORPG that i've played was LastChaos<br><br></p>
+        <p>Everybody think that i am a real nerd. But this is not true. I played some games and i decided to approach it for studying it. I played for a long time at League Of Legends, but when I've started my studies at Urbino, i decided to abbandon LOL and play something more serious. I've tried: DarkSouls, Nier: Automata, The Withcer, Resident Evil and many other titles... <br> The first MMORPG that i've played was LastChaos<br><br></p>
      </div>
     </div>
 
@@ -78,19 +79,77 @@
             <div class="banner__copy__text">
                 <h3>Hi, i'm Zenek</h3>
                 <h4>- About Me -</h4>
-                <p style="font-family:'Times New Roman';">Hey! Welcome in to my blog. Here you can find all information about my works over the internet!<br><br>There are many pages that you can visit for know me better and understand well what i am currently developing 😊 </p>
+                <p style="font-family:'Times New Roman';">Hey! Welcome in to my blog. In my page you can find all information about my works over the internet!<br><br>There are many pages that you can visit to know me and understand in a better way what i am currently developing 😊 </p>
             </div>
         </div>
 </section>
 
+<!-- Cards Part 2 -->
+<section class="cards clearfix">
 
+    <!-- First Card -->
+    <div class="card">
+        <img class="card__image" src="https://source.unsplash.com/400x260/?hack,matrix,code" alt="">
+     <div class="card__copy">
+        <h3>Hack</h3>
+        <p></p>
+     </div>
+    </div>
+
+    <!-- Second Card -->
+    <div class="card">
+        <img class="card__image" src="https://source.unsplash.com/400x260/?matrix,php,css,html" alt="">
+     <div class="card__copy">
+        <h3>Web Developer</h3>
+        <p></p>
+     </div>
+    </div>
+
+    <!-- Third Card -->
+    <div class="card">
+        <img class="card__image" src="https://source.unsplash.com/400x260/?videogames,games" alt="">
+     <div class="card__copy">
+        <h3 href="https://github.com/Zenek-Hastro" target="_blank">Games</h3>
+        <p></p>
+     </div>
+    </div>
+</section>
+
+<!-- Banner 2 -->
+
+<section class="banner clearfix">
+    <div style="float:left; margin-right:100px;">
+        <div class="banner__copy">
+            <div class="banner__copy__text">
+                    <h4>About Me</h4>
+                    <div style="font-family:'Times New Roman';">
+                        <ul style="text-align: center;">
+                        <li>[2018] - Start Studying at Urbino, Carlo Bo University - Italy<br><br></li>
+                        <li>[2019] - Worked 1 year in Universal Last Chaos Team as Admin and Game Design<br><br></li>
+                        <li>[2019] - Entered in HTB CTF Programs as part of OutOfOrder Team<br><br></li>
+                        <li>[2019] - Founded T-Lab at University of Urbino<br><br></li>
+                        <li>You can find more details in "MyWork" page!</li>
+                        </ul>
+                    </div>
+                
+            </div>
+        </div>
+    </div>
+        <div class="banner__image__second"></div>
+    
+</section>
+
+
+<footer class="footer">
+    <p>Copywrite - 2020 @zenek.com</p>
+</footer>
 
 
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 
 <script>
-    $(document).ready(function(){
-
+    $(document).ready(function()
+    {
         $(".header__icon-bar").click(function(e){
             $(".header__menu").toggleClass('is-open');
             e.preventDefault();
